@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js"
+        integrity="sha256-MlusDLJIP1GRgLrOflUQtshP0TwT/RHXsl1wWGnQhs=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bevan|Boogaloo|Bowlby+One+SC|Caveat+Brush|Changa+One|Chewy|Concert+One|Fredoka+One|Kumar+One|Lilita+One|Monoton|Nanum+Pen+Script|Patrick+Hand|Permanent+Marker|Rock+Salt|Rubik+Mono+One|Seymour+One|Sigmar+One|Special+Elite|Titan+One|Ultra&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amaranth|Anton|Baloo|Baloo+Bhai|Bowlby+One+SC|Calistoga|Concert+One|Fredoka+One|Fugaz+One|IBM+Plex+Mono|Modak|Pangolin|Rubik+Mono+One|Special+Elite|Varela+Round|Viga&display=swap"
+        rel="stylesheet">
+    <link href="css/signUp.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="">
+    <script src="js\script.js"></script>
+    <title>MWALIMU CENTRAL</title>
+</head>
+<style>
+/* .sidenav {
+     height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: ease-in-out 0.5s;
+    padding-top: 60px;
+    border-right: solid #e2af6d;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: ease-in-out 0.6s;
+    padding: 20px;
+    margin-top: 40px; 
+}
+
+.sidenav a:hover {
+     opacity: 90%;
+    border-left: 15px solid #e2af6d;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 20px;
+}
+.sidenav #clb:hover{
+    border-left: none;
+}
+#mSidenav a{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+  
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: ease-in-out 0.5s;
+    padding-top: 60px;
+    border-right: solid #e2af6d;
+}
+
+.sidenav a {
+    
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: ease-in-out 0.6s;
+    padding: 20px;
+    margin-top: 40px; 
+}
+
+.sidenav a:hover {
+    
+    opacity: 90%;
+    border-left: 15px solid #e2af6d;
+}
+.sidenav #clb:hover{
+    display: none;
+    border-left: none;
+}
+.sidenav .closebtn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+  #mSidenav a {
+    position: absolute;
+    left: -90px;
+    transition: ease-in-out 0.5s;
+    padding: 5px;
+    width: 100px;
+    text-decoration: none;
+    outline: none;
+    font-size: 15px;
+    color: #03396c;
+    border-radius:  0px 15px 15px 0px;
+}
+
+#mSidenav a:hover {
+    left: 0;
+    transition: ease-in-out 0.5s;
+}
+
+#co {
+    top: 100px;
+    background-color: #e2af6d;
+}
+
+#jb {
+    top: 140px;
+    background-color: #e2af6d;
+}
+
+#prof {
+    top: 180px;
+    background-color: #e2af6d;
+}
+
+#log {
+    top: 220px;
+    background-color: #e2af6d;
+}
+} */
+</style>
+<body>
+    <!-- <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="clb">&times;</a>
+        <a href="#" id="co">Courses</a>
+        <a href="#" id="jb">Jobs</a>
+        <a href="#" id="prof">Profile</a>
+        <a href="#" id="log">Log out</a>
+    </div>
+    <div id="mSidenav" class="sidenavs">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="clb">&times;</a>
+        <a href="#" id="co">Courses</a>
+        <a href="#" id="jb">Jobs</a>
+        <a href="#" id="prof">Profile</a>
+        <a href="#" id="log">Log out</a>
+    </div> -->
+    <div class="main">
+       
+        <input type="checkbox" id="chk" aria-hidden="true">
+    
+        <div class="signup">
+            
+          <form>
+            <label for="chk" aria-hidden="true">Sign up</label>
+            <input type="text" name="txt" placeholder="User name" required="true">
+            <input type="email" name="email" placeholder="Email" required="true">
+            <input type="password" name="pswd" placeholder="Password" required="true">
+            <button>Sign up</button>
+          </form>
+        </div>
+    
+        <div class="login">
+          <form>
+            <label for="chk" aria-hidden="true">Login</label>
+            <input type="email" name="email" placeholder="Email" required="">
+            <input type="password" name="pswd" placeholder="Password" required="">
+            <button>Login</button>
+          </form>
+        </div>
+      </div>
+</body>
+
+</html>
